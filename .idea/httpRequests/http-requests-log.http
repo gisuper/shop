@@ -1,0 +1,21 @@
+GET http://localhost:10010/actuator
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2019-08-09T042816.200.json
+
+###
+
+GET http://localhost:10010/actuator
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2019-08-09T042757.200.json
+
+###
+
+GET http://localhost:10010/actuator/health
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2019-08-09T042718.200.json
+
+###
+
