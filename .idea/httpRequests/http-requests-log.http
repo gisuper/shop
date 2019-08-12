@@ -1,3 +1,8 @@
+GET http://localhost:10010/actuator/health
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+###
+
 GET http://localhost:10010/actuator
 Accept: application/vnd.spring-boot.actuator.v2+json
 
