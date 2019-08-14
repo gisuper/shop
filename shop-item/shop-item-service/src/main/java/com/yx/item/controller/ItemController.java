@@ -1,9 +1,9 @@
-package com.yx.controller;
+package com.yx.item.controller;
 
 import com.yx.common.enums.ExceptionEnums;
 import com.yx.common.exception.ShopException;
 import com.yx.item.pojo.Item;
-import com.yx.service.ItemService;
+import com.yx.item.service.ItemService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +20,7 @@ public class ItemController {
 
     @PostMapping
     public ResponseEntity<Item> addItem(Item item) {
+
 
         if (item.getId() < 0){
            throw new ShopException(ExceptionEnums.SHOP_BAD_REQUEST);

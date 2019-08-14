@@ -3,6 +3,7 @@ package com.yx.common.enums;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+
 /**
  * Created by yangxiong on 2019/8/12.
  */

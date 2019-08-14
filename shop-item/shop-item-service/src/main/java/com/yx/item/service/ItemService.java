@@ -1,4 +1,4 @@
-package com.yx.service;
+package com.yx.item.service;
 
 import com.yx.item.pojo.Item;
 
